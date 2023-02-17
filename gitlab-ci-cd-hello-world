@@ -1,0 +1,12 @@
+$ mkdir gitlab-ci-cd-hello-world
+$ cd gitlab-ci-cd-hello-world
+$ git init
+$ touch .gitignore README.md
+$ git add -A
+$ git commit -m 'Initial commit'
+# for Git over HTTPS
+$ git push --set-upstream https://gitlab.com/kohligurshaan/gitlab-ci-cd-hello-world.git
+$ git remote add origin https://gitlab.com/kohligurshaan/gitlab-ci-cd-hello-world.git
+# for Git over SSH
+$ git push --set-upstream git@gitlab.com/<username>/gitlab-ci-cd-hello-world.git
+$ git remote add origin git@gitlab.com/<username>/gitlab-ci-cd-hello-world.git
